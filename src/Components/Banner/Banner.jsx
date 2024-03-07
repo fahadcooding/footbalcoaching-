@@ -47,6 +47,7 @@ const Banner = () => {
            Search 
           </button>
         </form>
+        
       </div>
     </div>
   );
