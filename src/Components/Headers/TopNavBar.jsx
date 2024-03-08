@@ -5,7 +5,7 @@ const TopNavBar = () => {
   const height = "36px";
   const color = "bg-black";
   return (
-    <SectionWrapper height={height} color={color}>
+    <SectionWrapper height={height} color={color} >
       <div className="w-full h-15  relative">
         <div className="flex justify-end items-center h-full  gap-4">
           <p className="text-white">Contact Us</p>

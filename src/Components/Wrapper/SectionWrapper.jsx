@@ -1,6 +1,6 @@
 import React from "react";
 
-const SectionWrapper = ({ height, children, color, shadow, justifyContent, alignItems, gap, ...rest }) => {
+const SectionWrapper = ({ height, children, color, shadow, justifyContent, alignItems,direction,margin, gap, ...rest }) => {
   const classNames = Object.entries(rest).map(([key, value]) => {
     if (typeof value === 'boolean') {
       return value ? ` ${key}` : '';
@@ -10,11 +10,11 @@ const SectionWrapper = ({ height, children, color, shadow, justifyContent, align
 
   return (
     <div
-      className={`w-full flex justify-center items-center shadow-lg ${color} ${shadow} ${classNames}`}
+      className={`w-full flex justify-center items-center  ${color} ${shadow} ${classNames} ${margin}`}
       style={{ height }}
     >
       <div
-        className={`md:w-[80%] w-[90%] flex justify-${justifyContent} items-${alignItems}`}
+        className={`md:w-[80%] w-[90%] flex justify-${justifyContent} items-${alignItems} ${gap} flex-${direction}`}
       >
         {children}
       </div>

@@ -14,7 +14,7 @@ const SubNavbar = () => {
       height={height}
       justifyContent={"between"}
       alignItems={"center"}
-      border={border}
+      
     >
       <div>
         <Logo />
