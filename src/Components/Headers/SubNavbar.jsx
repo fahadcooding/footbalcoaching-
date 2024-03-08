@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Logo from "../Logo/Logo";
 import { Link } from "react-router-dom";
 import { BiSolidDownArrow } from "react-icons/bi";
@@ -17,7 +17,9 @@ const SubNavbar = () => {
       border={border}
     >
       <div>
-        <Logo />
+        <Link to={"/"}>
+          <Logo />
+        </Link>
       </div>
 
       <div className="md:flex md:gap-10 md:items-center hidden ">
@@ -28,7 +30,9 @@ const SubNavbar = () => {
           Resouces <BiSolidDownArrow className="text-sm" />
         </Link>
         <Link className="text-[16px] ">Blogs </Link>
-        <Link className="text-[16px]">Login </Link>
+        <Link to="/registration" className="text-[16px]">
+          Login{" "}
+        </Link>
 
         <Link
           className="bg-main-dark px-4 py-2
