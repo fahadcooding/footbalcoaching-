@@ -12,10 +12,10 @@ const About = () => {
         {/* content div */}
 
         <div  className="flex flex-col gap-4 items-start justify-start">
-          <p className="uppercase text-main-dark text-[25px]">about us</p>
-          <h1  className="text-[45px]">Why Our Coaching Service Special</h1>
+          <p className="uppercase text-main-dark text-secondheading">about us</p>
+          <h1  className="text-mianheading">Why Our Coaching Service Special</h1>
           <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-          <Link className="bg-main-dark py-2 px-3 text-white ">Find More About US</Link>
+          <Link className="bg-main-dark py-3 px-4 text-white ">Find More About US</Link>
         </div>
       </div>
     </SectionWrapper>
