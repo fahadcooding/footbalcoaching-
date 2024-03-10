@@ -22,10 +22,10 @@ const SubNavbar = () => {
 
       <div className="md:flex md:gap-10 md:items-center hidden ">
         <Link className="text-[18px] flex gap-2 items-center">
-          Sessions <BiSolidDownArrow className="text-sm" />{" "}
+          Sessions <BiSolidDownArrow className="text-[10px]" />{" "}
         </Link>
         <Link className="text-[16px] flex gap-2 items-center">
-          Resouces <BiSolidDownArrow className="text-sm" />
+          Resouces <BiSolidDownArrow className="text-[10px]" />
         </Link>
         <Link className="text-[16px] ">Blogs </Link>
         <Link className="text-[16px]">Login </Link>

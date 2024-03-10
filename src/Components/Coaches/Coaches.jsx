@@ -16,7 +16,7 @@ const Coaches = () => {
 
       <div className="flex justify-center items-center flex-wrap gap-4">
         {coachesCardData.map((cardData, index) => (
-          <Card key={index} cardData={cardData} />
+          <Card key={index}  cardData={cardData} />
         ))}
       </div>
     </SectionWrapper>
