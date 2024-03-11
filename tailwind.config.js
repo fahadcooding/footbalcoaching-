@@ -14,7 +14,13 @@ module.exports = withMT({
         'main-dark': '#49BBBD',
         'custom-red': '#dc3545',
       },
+      fontSize: {
+        'mianheading': '45px',
+        'secondheading': '20px',  
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 });
