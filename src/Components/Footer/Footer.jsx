@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=" bg-[#d9d9d9] pt-[30px] font-sans	">
+      <div className=" bg-[#d9d9d9] pt-[30px] font-sans	pb-4">
         <div className="w-[85%] mx-auto ">© Copyright websiteurl.com</div>
       </div>
     </>

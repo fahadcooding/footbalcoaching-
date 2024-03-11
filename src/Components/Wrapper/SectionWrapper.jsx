@@ -25,7 +25,7 @@ const SectionWrapper = ({
       style={{ height }}
     >
       <div
-        className={`md:w-[80%] w-[90%] flex justify-${justifyContent} items-${alignItems}`}
+        className={`md:w-[85%] w-[90%] flex justify-${justifyContent} items-${alignItems}`}
       >
         {children}
       </div>
