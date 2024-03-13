@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import SessionHead from "../../Components/Sessions/SessionHead";
 
-const Sessions = () => {
+
+const Session = () => {
   return (
-    <div>Sessions</div>
-  )
-}
+    <div>
+      <SessionHead />
+    </div>
+  );
+};
 
-export default Sessions
+export default Session;

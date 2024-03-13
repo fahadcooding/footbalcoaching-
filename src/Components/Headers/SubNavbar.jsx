@@ -14,7 +14,6 @@ const SubNavbar = () => {
       height={height}
       justifyContent={"between"}
       alignItems={"center"}
-      
     >
       <div>
         <Link to={"/"}>
@@ -23,7 +22,7 @@ const SubNavbar = () => {
       </div>
 
       <div className="md:flex md:gap-10 md:items-center hidden ">
-        <Link className="text-[18px] flex gap-2 items-center">
+        <Link to="/session" className="text-[16px] flex gap-2 items-center">
           Sessions <BiSolidDownArrow className="text-[10px]" />{" "}
         </Link>
         <Link className="text-[16px] flex gap-2 items-center">

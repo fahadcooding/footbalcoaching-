@@ -1,7 +1,8 @@
 import coach_01 from '../assets/images/coach_01.png'
 import coach_02 from '../assets/images/coach_02.png'
 import coach_03 from '../assets/images/coach_03.png'
-
+import coach_04 from '../assets/images/coach_04.jpg'
+import { Fa1, Fa2, Fa3, Fa4 } from "react-icons/fa6";
 export const sliderData  = [
     {
         id:1,
@@ -12,7 +13,7 @@ export const sliderData  = [
            id:1,
            star:"*" 
         }],
-        img:"https://s3-alpha-sig.figma.com/img/3b93/4a19/a812f3e6a7acdc08bffe34508f8449ec?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b-DKpvSajDu43ViNgcUIJmjCddg8z4z53d3l8YhYOnwVah67kBbC3qZQ9Y1Q6wNmV4gZQmeZQkY5SZIXEA1mpVlwEDLZVi5QGnNv~ws9oz8Hz4Fh1JcbKPFEtseyi0OZZeN7IQQ57NpgjyTnYauE-u6T01A5DJKc8~~wm-X3vlDXwqqu3vVZ5~BWl6Y3insnZrRNMAg3xASfOQNLxKBnEbHDa6Y~f0I3BjxWrFSjTWRh80q~1zGU8yTfFhHrzBX4aUjDiJVat~BT8dynUeQGFvuCEJvFmjOrW0VPhYFqODKa1UrRtRHB1LIMvRsMeIACuTK2TxEmU9bZhIyKIzWl-g__"
+        img:coach_04
     },
     {
         id:2,
@@ -34,7 +35,7 @@ export const sliderData  = [
            id:1,
            star:"*" 
         }],
-        img:coach_02
+        img:coach_04
     },
     {
         id:4,
@@ -56,7 +57,7 @@ export const sliderData  = [
            id:1,
            star:"*" 
         }],
-        img:coach_01
+        img:coach_04
     },
     {
         id:6,
@@ -67,13 +68,34 @@ export const sliderData  = [
            id:1,
            star:"*" 
         }],
-        img:coach_02
+        img:coach_03
     },
 ]
 
-export const  data =  [
+export const  servicesData =  [
   {
-
-  }
+    id:1,
+    num:Fa1,
+    title:"Request complimentary Consult ",
+    content:"Lorem Ipsum is simply dummy text of  the printing and typesetting industry",
+  },
+  {
+    id:2,
+    num:Fa2,
+    title:"Discuss With our Agent",
+    content:"Lorem Ipsum is simply dummy text of  the printing and typesetting industry",
+  },
+  {
+    id:3,
+    num:Fa3,
+    title:"Select the best coach",
+    content:"Lorem Ipsum is simply dummy text of  the printing and typesetting industry",
+  },
+  {
+    id:4,
+    num:Fa4,
+    title:"Scheduled date to start Coaching session",
+    content:"Lorem Ipsum is simply dummy text of  the printing and typesetting industry",
+  },
 ]
   

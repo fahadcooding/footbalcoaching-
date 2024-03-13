@@ -24,7 +24,7 @@ const HomeSlider = () => {
 
   return (
     <>
-      <div className=" mt-[8rem] w-full flex justify-center items-center flex-col">
+      <div className=" mt-[8rem] w-full flex justify-center items-center flex-col ">
         <div className="flex justify-center items-center ">
           <h1 className="text-secondheading text-main-dark uppercase">
             What you get
@@ -61,6 +61,10 @@ const HomeSlider = () => {
               slidesPerView: 1,
               spaceBetween: 15,
             },
+            600: {
+              slidesPerView: 2,
+              spaceBetween: 25,
+            },
             700: {
               slidesPerView: 3,
               spaceBetween: 25,
@@ -75,35 +79,35 @@ const HomeSlider = () => {
         >
           {sliderData.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="w-[511px] h-[332px] relative">
+              <div className="w-[460px] h-[310px] relative">
                 <img
                   src={item.img}
                   alt=""
-                  className="absolute w-[80%] h-[90%] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] "
+                  className="absolute w-[85%] h-[262px] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] "
                 />
-                <div className="absolute bottom-0 right-0 flex justify-center items-center flex-col gap-3 w-[70%] bg-white p-2 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
+                <div className="absolute bottom-[1rem] right-0 flex justify-center items-center flex-col gap-3 w-[65%] bg-white p-2 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
                   <div className="flex justify-between items-center w-full">
                     <div>
-                      <p className="text-[15px] font-[800]">{item.name}</p>
-                      <p className="text-sm text-[#505050]">{item.jobTitle}</p>
+                      <p className="text-[12px] font-[800]">{item.name}</p>
+                      <p className="text-[10px] text-[#505050]">{item.jobTitle}</p>
                     </div>
 
                     <div className="flex justify-center gap-3 items-center">
                       <div className="text-white text-sm bg-[#5D5DFF] p-1 rounded-full flex justify-center items-center">
                         <BiLike />
                       </div>
-                      <p className="text-[15px] font-[800]">Testimonial</p>
+                      <p className="text-[12px] font-[800]">Testimonial</p>
                     </div>
                   </div>
 
-                  <div className="mb-6">
-                    <p className="text-[16px]">
+                  <div className="mb-10">
+                    <p className="text-[14px]">
                       I would recommend Notion for anyone trying to get the word
                       out about their business. It has saved me so much time!
                     </p>
                   </div>
                 </div>
-                <div className="absolute bottom-8 left-8 flex justify-center items-center py-3 px-3 gap-1  bg-black">
+                <div className="absolute bottom-[48px] left-10 flex justify-center items-center py-2 px-3 gap-1  bg-black">
                   {Array(5)
                     .fill()
                     .map((_, index) => (

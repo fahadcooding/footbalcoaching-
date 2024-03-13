@@ -1,5 +1,5 @@
 import coach_01 from '../assets/images/coach_01.png'
-import coach_02 from '../assets/images/coach_02.png'
+import coach_04 from '../assets/images/coach_04.jpg'
 import coach_03 from '../assets/images/coach_03.png'
 export const navItems   = [
     {
@@ -25,7 +25,7 @@ export const coachesCardData = [
     },
     {
         id:2,
-        image:coach_02,
+        image:coach_04,
         heading:"Penny Albritton",
         content:"orem Ipsum is simply dummy text of the printing and typesetting industry."
     },
@@ -43,7 +43,7 @@ export const coachesCardData = [
     },
     {
         id:5,
-        image:coach_02,
+        image:coach_04,
         heading:"Penny Albritton",
         content:"orem Ipsum is simply dummy text of the printing and typesetting industry."
     },
@@ -61,7 +61,7 @@ export const coachesCardData = [
     },
     {
         id:8,
-        image:coach_02,
+        image:coach_04,
         heading:"Penny Albritton",
         content:"orem Ipsum is simply dummy text of the printing and typesetting industry"
     },
